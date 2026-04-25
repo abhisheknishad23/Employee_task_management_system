@@ -14,7 +14,7 @@ A sleek, responsive Task Management System built to bridge the gap between manag
 
 # Installation
 1. Clone the repo:
-   `git clone https://github.com/yourusername/project-name.git`
+   `git clone https://github.com/abhisheknishad23/Employee_task_management_system.git`
 2. Install dependencies:
    `npm install`
 3. Run the development server:
