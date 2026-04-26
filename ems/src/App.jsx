@@ -25,8 +25,6 @@ function App() {
     }
   },[])
   
-
-
   const handleLogin = (email,password)=>{
     if(email =='admin@gmail.com' && password == '123'){
       setUser('admin')
@@ -51,7 +49,6 @@ function App() {
         {!user ? <Login handleLogin={handleLogin} />: ''}
         {user == 'admin' ?  <AdminDashboard changeUser={setUser} />: (user == 'employee' ? <EmployeeDashborad changeUser={setUser} data={loggedInUserData}/> : null)}
         
-    
     </>
   )
 }
